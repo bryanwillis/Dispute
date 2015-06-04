@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+@font-face {
+    font-family: "Gotham";
+    src: url(fonts/gotham.ttf);	/* IE9 Compat Modes */
+}
+@font-face {
+    font-family: "GothamMed";
+    src: url(fonts/GothamMedium.ttf);	/* IE9 Compat Modes */
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url(fonts/OpenSans-Regular.ttf);	/* IE9 Compat Modes */
+}
+@font-face {
+    font-family: "OpenSansSemi";
+    src: url(fonts/OpenSans-Semibold.ttf);	/* IE9 Compat Modes */
+}
+body{
+	font-size:13px;
+	margin: 0;
+	padding: 0;	
+	color:#000;
+	background-color:#FFF;
+	font-family:"Gotham";
+}
+a          		 { text-decoration:none; }
+.clear 			 { clear:both;}
+.left 			 { float:left;}
+.right			 { float:right;}
+.no-r			 { padding-right:0px !important;}
+.no-l			 { padding-left:0px !important;}
+.no-margin  	 { margin:0 auto !important;}
+.no-padding 	 { padding:0 !important;}
+.bord-h			 { height:31px;}
+.navbar-toggle	 { background-color:#fff; color:#bcda6c;}
+.m10		 { margin-left:8%;}
+
+.top   			 { background-color:#bcda6c; line-height:12px; color:#FFF; padding-top:10px; border-bottom:3px solid #a5cd39; }
+
+.banner-m		 { background-color:transparent;}
+.masthead		 { height: 109px; position: fixed; width: 100%; z-index: 9999; background-color: transparent; }
+.scroll {
+    background-color: #e2e4e4 !important;
+}
+
+.banner 		 { background:url(images/bg.jpg) no-repeat; color:#000; height:582px; /*margin-top:-6%;*/ -webkit-background-size: cover;
+  -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.banner h1 		 { font-family:"OpenSans"; font-size:37px; text-transform:uppercase; color:#000; line-height:32px; font-weight:bold;}
+.banner .green	 	 { color:#91b62e !important; font-family:"OpenSansSemi"; }
+.banner p 		 { font-family:"gotham"; font-size:16px;}
+.banner .qmarg	 	 { margin-top:-33px;}
+
+
+.top-m			 { margin-top:14%;}
+.top-f			 { margin-top:10%;}
+.top-p		 	 { padding-top:23px;}
+.top-ul    		 { margin-left:20%; }
+.top-ul li 		 { padding:1% 12px; list-style:none; float:left;font-size:15px; }
+.top-ul li a 		 { text-decoration:none; color:#000; }
+
+.who			 { background:url(images/n-green.png) no-repeat; padding-top:60px;font-family:"gotham"; text-align:center; height:500px;padding:167px 0; -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.who h1	  		 { font-family: "GothamMed"; font-size:25px; text-transform:uppercase; color:#000; line-height:22px; margin:20px 0;}
+.who p 			 { font-size:16px; line-height:27px;}
+
+.why			 { background-color:#FFF; padding:167px 0;font-family:"gotham"; text-align:center;-webkit-background-size: cover;
+  -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.why h1	  		 { font-family: "GothamMed"; font-size:25px; text-transform:uppercase; color:#000; line-height:22px; margin:20px 0;}
+.why p 			 { font-size:16px; line-height:27px;}
+.why .green 	 { font-family: "GothamMed"; color:#91b62e !important; }
+
+.pricing		 { background:url(images/n-grey.png) no-repeat; padding-top:40px;font-family:"gotham"; text-align:center; height:800px; margin-top:-31px; padding:167px 0;-webkit-background-size: cover;
+  -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.pricing h1	  	 { font-family: "GothamMed"; font-size:25px; text-transform:uppercase; color:#000; line-height:22px; margin:20px 0;}
+.pricing h2	  	 { font-family: "GothamMed"; font-size:25px; text-transform:uppercase; color:#bcda6c; line-height:22px; margin:20px 0; background-color:#dcdddd; padding:15px 0; }
+.pricing .bold	 { font-family: "GothamMed"; font-size:20px; text-transform:uppercase; height:38px; line-height:20px;}
+.pricing p 		 { font-size:16px; line-height:27px;}
+.pricing li		 { background:url(images/tick.png) no-repeat left center; padding: 1% 0 1% 8.5%; list-style: none; color:#545454; font-size:15px;}
+.pricing .cont	 { background-color:#dcdddd; text-align:left !important; padding:10px; height:278px; }
+.pricing .cont p { line-height:20px !important; }
+.pricing img 	 {  display: block; margin-left: auto; margin-right: auto; padding:15px 0;}
+
+
+.works			 { background-color:#FFF; font-family:"gotham"; text-align:center; margin:33px 0; padding:167px 0;}
+.works h1	  	 { font-family: "GothamMed"; font-size:25px; text-transform:uppercase; color:#000; line-height:22px; margin:20px 0;}
+.works h2	  	 { font-family: "GothamMed"; font-size:20px; text-transform:uppercase; color:#555555;  }
+.works p 		 { font-size:15px; line-height:27px;}
+.works img 	 	 { display: block; margin-left: auto; margin-right: auto; padding:15px 0;}
+
+.contact		 { background:url(images/contact-bg.png) no-repeat; padding-top:60px;font-family:"gotham"; text-align:center;-webkit-background-size: cover;
+  -moz-background-size: cover; -o-background-size: cover;  background-size: cover; height:421px;}
+.contact h1	  	 { font-family: "GothamMed"; font-size:25px; text-transform:uppercase; color:#FFF; line-height:22px;}
+.contact .fld	 { border:2px solid #FFF; padding:5px; height:45px; color:#FFF; text-transform:uppercase; background-color:transparent; width:90%; margin-bottom:12px;}
+.contact .txtarea { border:2px solid #FFF; padding:5px; height:81px; color:#FFF; text-transform:uppercase; background-color:transparent; width:90%;}
+.contact .btn	 { background-color:#a5c15a; border-radius:6px; color:#FFF; padding:10px 6px; margin:20px auto; text-transform:uppercase; font-size:15px; width:20%;}
+
+.footer			 { background-color:#676767; padding:40px 0;font-family:"gotham"; text-align:center; color:#FFF; font-size:14px;}
+.footer ul		 { margin:0 42% 7%;}
+.footer li	 	 { padding:0 2.5%; float:left; list-style:none;  }
+.footer	a		 { color:#FFF;}
+
+@media(max-width:678px){
+.masthead  		 { background-color: #e2e4e4; position:relative }
+.banner, .contact{ height:auto;}	
+.who			 { background-color:#deebbc; height:auto; }
+.who p 			 { font-size:16px; line-height:20px; }
+.top-ul li 		 { width:100%;}
+.pricing		 { background-color:#e2e4e4; height:auto;}
+.pricing .cont	 { height:auto;}
+.top-f,.top-m	 { margin-top:0px !important;}
+.footer ul 		 { margin: 0 24% 7%; }
+.who, .why, .pricing, .works { padding:40px 0;}
+.top-p			 { padding-top:8px;}
+.nav 			 { float: right; margin-top: -50px; }
+	
+	}
+@media(min-width:680px) and (max-width:980px) {
+.top-ul    		 { margin-left:0; }
+.top-ul li  	 { padding:1% 8px;}
+.who, .why, .pricing, .works { padding:60px 0;}
+.pricing		 { background-color:#e2e4e4; height:auto;}
+.banner, .contact, .pricing, .who 	{ height:auto;}
+.top-f	 { margin-top:0px !important;}
+.footer ul 		 { margin: 0 37% 7%; }
+.m10			{ margin-left:0px !important;}	
+}
