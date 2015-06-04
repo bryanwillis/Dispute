@@ -1,4 +1,15 @@
-@charset "utf-8"; 
+/*
+Theme Name: Dsipute Bills
+Theme URI: http://disputebills.com
+Author: Matt
+Author URI: http://disputebills.com
+Description: Theme for Dispute Bills
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: disputebills
+*/
+
 
 *{margin:0; padding:0}
 @font-face{    font-family:"Gotham";     src:url(fonts/gotham.ttf)}
